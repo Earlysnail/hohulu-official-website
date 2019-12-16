@@ -1,0 +1,34 @@
+@import './variables.scss';
+
+@mixin hhlBtn($color) {
+  font-size: 14px;
+  color: #fff;
+  padding: 15px 10px;
+  line-height: 14px;
+  border-radius: 50px;
+  text-align: center;
+  width: 200px;
+  border: 1px solid #fff;
+  background: $color;
+  outline: none;
+  transition: 600ms ease all;
+  position: relative;
+  display: inline-block;
+
+  &:hover {
+    background: #fff;
+    border:1px solid $color;
+    cursor: pointer;
+    color: $color;
+  }
+}
+
+
+
+.hhl-blue-btn {
+  @include hhlBtn($theme-color-blue)
+}
+
+.hhl-red-btn {
+  @include hhlBtn($theme-color-red)
+}

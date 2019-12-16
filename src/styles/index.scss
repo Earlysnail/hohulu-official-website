@@ -1,0 +1,59 @@
+@import './variables.scss';
+@import './element-ui.scss';
+@import './btn.scss';
+body {
+  height: 100%;
+  padding: 2% 5%;
+  margin: 0px;
+  text-align: center;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: $theme-font-family;
+  font-size: $theme-font-size;
+}
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}

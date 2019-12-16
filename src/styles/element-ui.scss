@@ -1,0 +1,46 @@
+@import './variables.scss';
+/* 修改菜单样式 */
+.el-menu {
+  background-color: $theme-color-red;
+}
+
+.el-menu--horizontal>.el-menu-item {
+  color: #fff;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+  color: $theme-color-yellow;
+}
+
+
+/* 布局样式  */
+// .el-row {
+//   margin: 20px 0px;
+// }
+
+
+/* 修改input样式 */
+// .el-input .el-input__inner {
+//   border: 1px solid $theme-color-red;
+// }
+
+
+/* 修改表格样式 */
+// .cell .el-button--text{color:#0099ff;}
+// .menu_  .el-dialog__body{padding-top: 10px;}
+
+/* 弹窗样式 */
+// .el-dialog__header{border-bottom:1px solid #ccc;box-sizing: border-box;}
+// .el-dialog__headerbtn .el-dialog__close{color: #EE1D23;font-weight: bold;}
+
+/* 时间框样式 */
+// .el-time-spinner .el-time-spinner__wrapper.el-scrollbar:nth-child(2){display: none !important;}
+
+/* 滚动条的宽度 */
+// ::-webkit-scrollbar {width: 10px;height: 10px;}
+
+/* 滚动条的滑块 */
+// ::-webkit-scrollbar-thumb {background-color: #EE1D23;border-radius: 10px;}
+
+/* 滚动条框大小 */
+// .el-table__fixed-right-patch{width:15px !important;}
